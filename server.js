@@ -3,7 +3,7 @@ const axios = require('axios');
 require('dotenv').config();
 
 const app = express();
-const PORT = 80;
+const PORT = 8080;
 const OLLAMA_URL = 'http://localhost:11434';
 const BEARER_TOKEN = process.env.BEARER_TOKEN || 'your-secret-token-here';
 
